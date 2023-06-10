@@ -2,7 +2,7 @@
 
 function palindrome(str){
 	str=str.split(" ").join("");
-	str=str.totoLowerCase();
+	str=str.toLowerCase();
 	let temp = str;
 	for (let index = 0; index < str.length; index++) {
 		if(str.charAt(index)!=str.charAt(str.length-1-index)){
